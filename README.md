@@ -99,7 +99,7 @@ function convert (num, mode) {
 
 		// 计算当前位的系数
 		var n = 1;
-    var lastNum = highestNum;
+        var lastNum = highestNum;
 		for(var i = 1; i <= mode; i++)
 		{
 			var temp = i * highestNum;
