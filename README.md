@@ -117,7 +117,7 @@ function convert (num, mode) {
 					lastNum = temp;
 				}
 				// 大于两位时，要注意，因为向高位进位要本位满位以后，
-				// 显示的时候要高位系数减一，留给低位满位显示 （尼玛，真难描述，看得懂就看吧 - -）
+				// 显示的时候要高位系数减一，留给低位满位显示。
 				else
 				{
 					lastNum = temp - highestNum;
